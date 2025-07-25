@@ -1,5 +1,9 @@
 # esp-idf-lib/am2320
 
+[![Build examples](https://github.com/esp-idf-lib/am2320/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/am2320/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/am2320/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/am2320/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/am2320/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/am2320/actions/workflows//validate-component.yml)
+
 Driver for AM2320 temperature and humidity sensor (I2C).
 
 * [Documentation](https://esp-idf-lib.github.io/am2320/)
@@ -11,7 +15,7 @@ Driver for AM2320 temperature and humidity sensor (I2C).
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/am2320^1.0.0
+idf.py add-dependency esp-idf-lib/am2320
 ```
 
 ## Support
