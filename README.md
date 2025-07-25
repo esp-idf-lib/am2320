@@ -11,7 +11,7 @@ Driver for AM2320 temperature and humidity sensor (I2C).
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/am2320^1.0.0
+idf.py add-dependency esp-idf-lib/am2320^1.0.0
 ```
 
 ## Support
