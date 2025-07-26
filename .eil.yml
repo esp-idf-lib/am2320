@@ -1,7 +1,7 @@
 ---
 name: am2320
 description: Driver for AM2320 temperature and humidity sensor (I2C)
-version: 1.0.1
+version: 1.0.2
 groups:
   - temperature
   - humidity
