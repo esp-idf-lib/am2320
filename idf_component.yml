@@ -1,5 +1,5 @@
 ---
-version: 1.0.5
+version: 1.0.6
 description: Driver for AM2320 temperature and humidity sensor (I2C)
 license: BSD-3
 targets:
