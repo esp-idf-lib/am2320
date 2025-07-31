@@ -70,7 +70,8 @@ static uint16_t crc16(uint8_t *data, size_t len)
             {
                 crc >>= 1;
                 crc ^= 0xa001;
-            } else crc >>= 1;
+            }
+            else crc >>= 1;
         }
     }
     return crc;
@@ -145,16 +146,16 @@ static float convert_temperature(uint16_t raw)
     if (raw == 0xffff)
         return NAN;
     float res = raw & 0x8000
-        ? (float)-(int16_t)(raw & 0x7fff)
-        : (float)(raw);
+                ? (float) - (int16_t)(raw & 0x7fff)
+                : (float)(raw);
     return res / 10.0f;
 }
 
 static inline float convert_humidity(uint16_t raw)
 {
     return raw != 0xffff
-        ? (float)raw / 10.0f
-        : NAN;
+           ? (float)raw / 10.0f
+           : NAN;
 }
 
 ///////////////////////////////////////////////////////////////////////////////
